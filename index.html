@@ -1,67 +1,69 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Excel 圖片放大套件說明</title>
+  <title>Excel Image Zoomer - Add-on Guide</title>
   <link rel="icon" href="icon.png" type="image/png">
   <style>
-    body { font-family: "Segoe UI", "Noto Sans TC", Arial, sans-serif; background: #f8f9fa; color: #222; margin: 0; padding: 0;}
-    .container { max-width: 680px; margin: 48px auto; background: #fff; box-shadow: 0 2px 8px #e0e1ef99; border-radius: 18px; padding: 32px; }
-    h1, h2 { color: #6a60c7; }
-    .icon-demo { display: flex; align-items: center; margin-bottom: 24px; }
-    .icon-demo img { width: 56px; height: 56px; margin-right: 18px; border-radius: 12px; box-shadow: 0 1px 8px #cfd8dc55;}
-    .feature-list { margin: 1em 0 2em 1em; }
-    .feature-list li { margin: .5em 0;}
-    code { background: #ede7f6; padding: 2px 5px; border-radius: 4px;}
-    a { color: #3b48c7; text-decoration: none;}
+    body { font-family: "Segoe UI", Arial, sans-serif; background: #f6f7fb; color: #25234c; margin: 0; }
+    .container { max-width: 680px; margin: 44px auto; background: #fff; border-radius: 14px; box-shadow: 0 4px 16px #b5b1d140; padding: 34px 26px 28px 26px; }
+    h1, h2 { color: #5460df; }
+    .icon-section { display: flex; align-items: center; margin-bottom: 26px; }
+    .icon-section img { width: 58px; height: 58px; border-radius: 12px; box-shadow: 0 2px 12px #b1a2e930; margin-right: 18px;}
+    ul, ol { margin-left: 1.3em; }
+    li { margin-bottom: 0.4em; }
+    code { background: #eef2fd; color: #242; padding: 1.5px 6px; border-radius: 4px; }
+    a { color: #4653c9; text-decoration: none;}
     a:hover { text-decoration: underline;}
-    .footer { margin-top: 2em; color: #888; font-size: 0.98em;}
+    .footer { margin-top: 2.2em; font-size: 0.98em; color: #9092b1; }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="icon-demo">
-      <img src="icon.png" alt="套件Icon">
+    <div class="icon-section">
+      <img src="icon.png" alt="App Icon">
       <div>
-        <h1>Excel 圖片放大套件</h1>
-        <div>讓你在 Excel 或 Google 試算表中，輕鬆點擊儲存格圖片即放大檢視</div>
+        <h1>Excel Image Zoomer</h1>
+        <div style="font-size:1.1em;">A simple add-on to instantly enlarge images from your spreadsheet cells.</div>
       </div>
     </div>
-    <h2>功能特色</h2>
-    <ul class="feature-list">
-      <li>📷 支援儲存格內多張圖片放大顯示</li>
-      <li>🔎 點擊縮圖即可浮現大圖，瀏覽更方便</li>
-      <li>💡 UI 直覺，安裝即用，零學習曲線</li>
-      <li>🌐 支援 Google 試算表 Add-on/Excel 外掛</li>
-    </ul>
 
-    <h2>安裝方式</h2>
-    <ol>
-      <li>進入 <a href="https://workspace.google.com/marketplace">Google Workspace Marketplace</a> 搜尋「Excel 圖片放大」</li>
-      <li>點擊 <b>安裝</b>，依指示授權</li>
-      <li>在你的 Google 試算表中啟用本套件</li>
-    </ol>
-    <!-- 可加上 Excel 外掛教學或其他安裝方式 -->
-
-    <h2>操作教學</h2>
-    <ol>
-      <li>將圖片插入至儲存格</li>
-      <li>游標移到圖片縮圖，點一下即可放大顯示</li>
-      <li>點擊大圖外側即關閉放大視窗</li>
-    </ol>
-    <p>如有支援 Excel，本段可加上「於 Excel 增益集啟動...」等說明。</p>
-
-    <h2>套件 icon 示意</h2>
-    <img src="icon.png" alt="Excel 圖片放大 icon" width="90">
-
-    <h2>聯絡與反饋</h2>
+    <h2>Features</h2>
     <ul>
-      <li>GitHub Issues：<a href="https://github.com/你的帳號/你的repo/issues">回報問題 / 建議功能</a></li>
-      <li>Email：<a href="mailto:youremail@example.com">youremail@example.com</a></li>
+      <li>Click on any cell image to view it in full size</li>
+      <li>Clean and intuitive UI</li>
+      <li>Works with Google Sheets (Excel support coming soon)</li>
+      <li>Supports multiple images per sheet</li>
     </ul>
 
-    <div class="footer">© 2025 你的名稱．設計 by C醬</div>
+    <h2>Installation</h2>
+    <ol>
+      <li>Go to the <a href="https://workspace.google.com/marketplace">Google Workspace Marketplace</a>.</li>
+      <li>Search for <b>Excel Image Zoomer</b>.</li>
+      <li>Click <b>Install</b> and follow the instructions.</li>
+      <li>Open Google Sheets and activate the add-on from the Extensions menu.</li>
+    </ol>
+
+    <h2>How to Use</h2>
+    <ol>
+      <li>Insert images into your spreadsheet cells.</li>
+      <li>Click an image thumbnail to enlarge it.</li>
+      <li>Click outside the image or the close button to exit zoom mode.</li>
+    </ol>
+
+    <h2>App Icon</h2>
+    <img src="icon.png" alt="Excel Image Zoomer Icon" width="86">
+
+    <h2>Feedback & Contact</h2>
+    <ul>
+      <li>Issues / Suggestions: <a href="https://github.com/your-account/your-repo/issues">GitHub Issues</a></li>
+      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+    </ul>
+
+    <div class="footer">
+      © 2025 Your Name. Designed by C醬.
+    </div>
   </div>
 </body>
 </html>
