@@ -3,7 +3,7 @@
 A lightweight Google Workspace add-on that lets you click and enlarge images directly from your spreadsheet cells.  
 Easy to use, no extra setup required.
 
-![icon](icon.png)
+![icon](icon128x128.png)
 
 ## Features
 
