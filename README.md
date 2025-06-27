@@ -1,6 +1,6 @@
 # Excel Image Zoomer
 
-A lightweight Google Workspace add-on that lets you click and enlarge images directly from your spreadsheet cells.  
+A lightweight Google Workspace™ add-on that lets you click and enlarge images directly from your spreadsheet cells.  
 Easy to use, no extra setup required.
 
 ![introduction](introduction.gif)
@@ -9,12 +9,12 @@ Easy to use, no extra setup required.
 
 - 📷 Click any cell image to view it in full size
 - 🔍 Simple and intuitive UI
-- ⚡️ Works seamlessly with Google Sheets (and Excel in the future)
+- ⚡️ Works seamlessly with Google Sheets™ (and Excel in the future)
 - 🖼️ Supports multiple images per sheet
 
 ## Installation
 
-1. Go to the [Google Workspace Marketplace](https://workspace.google.com/marketplace).
+1. Go to the [Google Workspace™ Marketplace](https://workspace.google.com/marketplace).
 2. Search for **Excel Image Zoomer**.
 3. Click **Install** and follow the instructions.
 
