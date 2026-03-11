@@ -9,6 +9,7 @@ Easy to use, no extra setup required.
 
 ## Features
 
+- ✨ **One-Click Preview:** Click the "Preview" button over any cell image to pop it up.
 - 📷 Click any cell image to view it in full size
 - 🔍 Simple and intuitive UI
 - ⚡️ Works seamlessly with Google Sheets™ (and Excel in the future)
