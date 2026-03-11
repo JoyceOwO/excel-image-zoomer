@@ -5,6 +5,8 @@ Easy to use, no extra setup required.
 
 ![introduction](introduction.gif)
 
+> **🚀 v1.3.0 Update:** Now supports **"One-Click Preview"**! Simply click the button over any image to pop it up instantly.
+
 ## Features
 
 - 📷 Click any cell image to view it in full size
